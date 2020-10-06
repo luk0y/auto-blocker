@@ -1,0 +1,29 @@
+{
+	"keywords": [
+		"telegram",
+		"userbot",
+		"plugin",
+		"modular",
+		"productivity"
+	],
+	"repository": "https://github.com/luk0y/auto-blocker",
+	"website": "#TODO",
+	"success_url": "#TODO",
+	"env": {
+		"APP_ID": {
+			"description": "Get this value from my.telegram.org! Please do not steal",
+			"value": ""
+		},
+		"API_HASH": {
+			"description": "Get this value from my.telegram.org! Please do not steal",
+			"value": ""
+		},
+		"STRING_SESSION": {
+			"description": "Get this value by running https://generatestringsession.luk0y.repl.run",
+			"value": ""
+		}
+	},
+	"buildpacks": [{
+		"url": "heroku/python"
+	}]
+}
